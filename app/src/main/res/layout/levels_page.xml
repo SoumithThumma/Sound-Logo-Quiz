@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#262626" >
+    
+    <LinearLayout
+         android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/level"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        /> 
+        <TextView
+            android:id="@+id/level_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:textSize="35sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        /> 
+      
+         </LinearLayout>
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dp"
+    android:background="#FFFFFF"/>
+         <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background"
+         >
+    
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="75dp"
+         >
+          <Button 
+            android:id="@+id/playsound_button"
+            android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+         android:layout_marginEnd="10dp"
+         android:background="@drawable/playsound"
+        android:textColor="#000000"
+        android:text="@string/playsound_button"
+        android:textSize="25sp"
+        android:drawableRight="@drawable/play_image"
+         android:drawableEnd="@drawable/play_image" />
+          
+           <Button 
+            android:id="@+id/hint_button"
+            android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:text="@string/hint_button"
+        android:background="@drawable/showhint"
+        android:textSize="25sp"
+        android:drawableRight="@drawable/hint_image"
+        android:drawableEnd="@drawable/hint_image" />
+         </LinearLayout>
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+       android:layout_marginTop="10dp"
+         >
+            <Button 
+            android:id="@+id/answer_button"
+            android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/showanswer"
+        android:textColor="#000000"
+        android:text="@string/showanswer_button"
+        android:textSize="25sp" />
+            </LinearLayout>
+             <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+         >
+    <EditText android:id="@+id/user_answer"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:inputType="text"
+     android:layout_marginRight="10dp"
+         android:layout_marginEnd="10dp"
+    android:textColor="#000000"
+    android:textSize="20sp"
+    android:gravity="center"
+    />
+     <Button 
+            android:id="@+id/check_button"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/check"
+        android:textColor="#000000"
+        android:text="@string/check_button"
+        android:textSize="25sp" />
+             </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>

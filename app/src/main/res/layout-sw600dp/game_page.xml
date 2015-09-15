@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/game">
+    
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:text="@string/congratulations"
+        android:textSize="60sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        /> 
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/finish"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        /> 
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="@string/updates"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:typeface="serif"
+        /> 
+         <Button 
+            android:id="@+id/ok_button"
+            android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/ok"
+        android:textColor="#FFFFFF"
+        android:text="@string/ok"
+        android:textSize="35sp" />
+            
+</LinearLayout>

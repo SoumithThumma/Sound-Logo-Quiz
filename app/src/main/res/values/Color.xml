@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+   <color name="dark_grey">#DEDEDE</color> 
+   <color name="light_grey">#EDEDED</color> 
+   <color name="change_greytop">#f5f5f5</color>
+    <color name="change_greybottom">#F7F7F7</color>
+   <color name="green">#66ff66</color>
+   <color name="light_orange">#ffc04c</color>
+   
+</resources>
